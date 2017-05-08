@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Spartan";
+  src: url("../fonts/spartan-webfont.woff2") format("woff2"),
+  url("../fonts/spartan-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "avenir";
+  padding: 0 0 0 0;
+}
+
+b, h1 {
+  font-family: "Spartan";
+}
+
+header {
+  width: 100%; /*stretches color entire width of browser*/
+  height: 3em;
+  z-index: 2;
+  padding: .5em 0 0 5em; /*moves it in terms of other elements*/
+  background-color: #04AEB2; /*teal*/
+  text-align: middle;
+}
+
+h1 {
+  padding: 0 0 0 1em;
+}
+
+h3 {
+  padding: 0 0 0 1em;
+}
+
+ol {
+  padding: 3em;
+}
+
+img {
+  max-width: 40%;
+  min-width: 15em;
+}
+
+br {
+  line-height: 300%;
+}
